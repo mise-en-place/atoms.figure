@@ -1,10 +1,11 @@
 // ==========================================================================
-// FIGURES ATOM
+// Figures Atom
 // ==========================================================================
+
 /*doc
 ---
 title: Figures
-name: 9_figures
+name: figures
 category: atoms
 ---
 
@@ -37,9 +38,9 @@ figcaption,
 /*doc
 ---
 title: Left / right Figures
-name: 9_figures_left_right
+name: figures_left_right
 category: atoms
-parent: 9_figures
+parent: figures
 ---
 
 Figures can optionally be left or right aligned with a percentage based width, or forced to full width.
@@ -58,7 +59,6 @@ Figures can optionally be left or right aligned with a percentage based width, o
 </figure>
 <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit, sed do eiusmodtem por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud  exercitation ullamco laboris nisi ut aliquip ex ea commodocon sequat.</p>
 <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusm odtempor incididunt. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipcing elit, sed do eiusmodtempor inciidunt.<p>
-
 ```
 
 ```html_example
@@ -67,9 +67,7 @@ Figures can optionally be left or right aligned with a percentage based width, o
 </figure>
 <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit, sed do eiusmodtem por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud  exercitation ullamco laboris nisi ut aliquip ex ea commodocon sequat.</p>
 <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusm odtempor incididunt. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipcing elit, sed do eiusmodtempor inciidunt.<p>
-
 ```
-
 */
 
 .figure--left,
@@ -109,7 +107,6 @@ Figures can optionally be left or right aligned with a percentage based width, o
     }
 }
 
-
 .figure--full {
     width: 100%;
 
@@ -122,9 +119,9 @@ Figures can optionally be left or right aligned with a percentage based width, o
 /*doc
 ---
 title: Responsive Figures
-name: 9_figures_responsive
+name: figures_responsive
 category: atoms
-parent: 9_figures
+parent: figures
 ---
 
 Figures can be aligned based on screen width
@@ -139,6 +136,7 @@ Figures can be aligned based on screen width
 
 */
 
+// @TODO loop this rather than manually add just Medium?
 
 .figure--left--medium,
 .figure--right--medium {
