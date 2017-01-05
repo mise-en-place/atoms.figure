@@ -28,8 +28,8 @@ figure,
 
 figcaption,
 .figcaption {
-    @include font-family(type-config(headings-family));
-    @include font-scale(xsmall, type-config(headings-family));
+    // @include font-family(type-config(headings-family));
+    // @include font-scale(xsmall, type-config(headings-family));
     display: block;
     margin-top: rem-calc(10);
 }
