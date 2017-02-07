@@ -19,6 +19,9 @@ Basic figures are auto-width. Figcaption is optional
 ```
 */
 
+@import "tool-rem-calc";
+@import "breakpoint";
+
 figure,
 .figure {
     display: inline-block;
