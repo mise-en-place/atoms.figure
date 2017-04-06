@@ -19,8 +19,8 @@ Basic figures are auto-width. Figcaption is optional
 ```
 */
 
-@import "tool-rem-calc";
-@import "breakpoint";
+@import "~mep-tools.rem-calc";
+@import "~breakpoint-sass";
 
 figure,
 .figure {
